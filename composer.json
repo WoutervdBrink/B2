@@ -1,0 +1,24 @@
+{
+    "name": "fundament/b2-datastructuren",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "authors": [
+        {
+            "name": "Wouter van den Brink",
+            "email": "git@woutervdb.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "B2\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "B2\\Test\\": "tests/"
+        }
+    }
+}
