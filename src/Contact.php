@@ -23,7 +23,6 @@ class Contact
         echo "Achternaam: ".$this->achternaam."\n";
         echo "Telefoon: ".$this->telefoon."\n";
         echo "E-mailadres: ".$this->email."\n";
-        echo "Achternaam: ".$this->achternaam."\n";
         echo "Geboortedatum: ".$this->geboortedatum()."\n";
     }
 }
