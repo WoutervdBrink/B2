@@ -1,6 +1,6 @@
 <?php
 
-namespace B2;
+namespace B2\Contactenlijst;
 
 class Contact
 {

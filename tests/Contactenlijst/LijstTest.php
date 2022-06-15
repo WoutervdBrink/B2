@@ -1,10 +1,10 @@
 <?php
 /** @noinspection PhpUnitAssertCanBeReplacedWithEmptyInspection */
 
-namespace B2\Test;
+namespace B2\Test\Contactenlijst;
 
-use B2\Contact;
-use B2\Lijst;
+use B2\Contactenlijst\Contact;
+use B2\Contactenlijst\Lijst;
 use PHPUnit\Framework\TestCase;
 
 class LijstTest extends TestCase

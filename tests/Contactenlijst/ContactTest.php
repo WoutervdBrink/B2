@@ -1,8 +1,8 @@
 <?php
 
-namespace B2\Test;
+namespace B2\Test\Contactenlijst;
 
-use B2\Contact;
+use B2\Contactenlijst\Contact;
 use PHPUnit\Framework\TestCase;
 
 class ContactTest extends TestCase

@@ -1,8 +1,8 @@
 <?php
 require_once __DIR__."/vendor/autoload.php";
 
-use B2\Contactenlijst;
-use B2\Contact;
+use B2\Contactenlijst\Contact;
+use B2\Contactenlijst\Contactenlijst;
 
 $alex = new Contact();
 $alex->voornaam = "Alex";
