@@ -17,21 +17,23 @@ class Node
     {
         // De gewenste waarde is kleiner dan of gelijk aan de waarde van deze knoop. Voeg hem links toe.
         if ($value <= $this->value) {
+            // Deze knoop heeft geen linkerkind. Dan wordt de nieuwe knoop het linkerkind.
             if (empty($this->left)) {
-                // Deze knoop heeft geen linkerkind. Dan wordt de nieuwe knoop het linkerkind.
                 $this->left = new Node($value);
-            } else {
-                // Deze knoop heeft al een linkerkind. Voeg de nieuwe knoop toe aan dit kind.
+            }
+            // Deze knoop heeft al een linkerkind. Voeg de nieuwe knoop toe aan dit kind.
+            else {
                 $this->left->add($value);
             }
         }
         // De gewenste waarde is groter dan de waarde van deze knoop. Voeg hem rechts toe.
         else {
+            // Deze knoop heeft geen rechterkind. Dan wordt de nieuwe knoop het rechterkind.
             if (empty($this->right)) {
-                // Deze knoop heeft geen rechterkind. Dan wordt de nieuwe knoop het rechterkind.
                 $this->right = new Node($value);
-            } else {
-                // Deze knoop heeft al een rechterkind. Voeg de nieuwe knoop toe aan dit kind.
+            }
+            // Deze knoop heeft al een rechterkind. Voeg de nieuwe knoop toe aan dit kind.
+            else {
                 $this->right->add($value);
             }
         }
